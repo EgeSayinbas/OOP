@@ -4,12 +4,13 @@
     {
         public string Ad;
         public string Soyad;
-        string _TcNo;  // Kapsulleme *
+        string _TcNo; //bos property
+        
         public string Gsm;
 
         //kontrollu veri girisi tcno illa 11 olacak
 
-        public void SetTcNo(string value) //*
+        public void SetTcNo(string value) 
         {
             if(!string.IsNullOrEmpty(value)&& value.Length==11)
             {
@@ -18,7 +19,7 @@
         }
 
         //TcNo son 4 hanesini gosterin
-
+        //tcno kapsulleme. get ve set metodlari kosula bagli veri girisi cikisi  encapsulation
         public string GetTcNo()
         {
             if(!string.IsNullOrEmpty(_TcNo))
@@ -35,7 +36,19 @@
     public class Personel
     {
         string _Tcno;
-        public string Ad { get; set; }
+        string _Ad;
+        public string Ad 
+        { 
+            get { return _Ad; }
+
+            set
+            {
+                if (string.IsNullOrEmpty(_Ad))
+                {
+                    _Ad = value;
+                }
+            }
+        }
         public string Soyad { get; set; }
         public string TcNo {
             get 
