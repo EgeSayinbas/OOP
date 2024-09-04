@@ -10,5 +10,12 @@ namespace _3_ClassLib.Personeller
     {
         public double Maas { get; set; } = 17002;
         public string Departman { get; set; }
+
+        public void IseGecKalma()
+        {
+
+        }
+
+
     }
 }

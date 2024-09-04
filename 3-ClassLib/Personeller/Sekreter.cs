@@ -12,5 +12,17 @@ namespace _3_ClassLib.Personeller
         {
             Maas = base.Maas+7000;
         }
+
+        public void TelefonlaraBak()
+        {
+
+        }
+
+        public void RandevulariAyarla()
+        {
+
+        }
+
+
     }
 }

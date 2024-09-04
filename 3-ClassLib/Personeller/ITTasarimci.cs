@@ -12,5 +12,16 @@ namespace _3_ClassLib.Personeller
         {
             Maas=base.Maas*2;
         }
+        public void LogoTasarla()
+        {
+
+        }
+
+        public void WebSitesiTasarla()
+        {
+
+        }
+
+        
     }
 }

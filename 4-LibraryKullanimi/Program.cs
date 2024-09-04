@@ -1,4 +1,5 @@
 ﻿using _3_ClassLib.Bilgisayarlar;
+using _3_ClassLib.Personeller;
 
 
 namespace _4_LibraryKullanimi
@@ -31,10 +32,16 @@ namespace _4_LibraryKullanimi
             //bilgisayar.EkranKartlari = new List<EkranKarti>();
 
             //oyuncu = null;
-
-            Console.WriteLine("oyuncupc fiyat=" +oyuncu.FiyatHesapla());
+            Console.WriteLine("oyuncupc fiyat=" + oyuncu.FiyatHesapla());
             Console.WriteLine("pc fiyat=" + bilgisayar.FiyatHesapla());
 
+
+            SatisMuduru satisMuduru = new SatisMuduru();
+            SatisElemani satisElemani = new SatisElemani();
+            satisElemani.Prim = 100;
+            satisMuduru.Prim = 100;
+
+            
         }
     }
 }
