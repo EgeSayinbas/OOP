@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2_ClassOrnekler.Bilgisayarlar
 {
-    public class Bilgisayar
+    public class BilgisayarSec
     {
 
         
@@ -18,4 +18,5 @@ namespace _2_ClassOrnekler.Bilgisayarlar
         public Islemciler Islemciler { get; set; }
 
     }
+    
 }

@@ -6,7 +6,7 @@ using _2_ClassOrnekler.Bilgisayarlar;
 
 namespace _2_ClassOrnekler
 {
-    internal class Program
+    public class Program
     {
         //struct lar stack te tutulurken class lar heap alaninda tutulur.
         static void Main(string[] args)
@@ -52,20 +52,20 @@ namespace _2_ClassOrnekler
             ////}
             ////Console.WriteLine(Enum.GetValues(typeof(KasaTipi)));
             ////Console.WriteLine(Enum.GetNames(typeof(KasaTipi)));
-
+            //otomobil.KasaTipi = KasaTipi.Sedan;
             #endregion
 
             #region Bilgisayarlar
-            Bilgisayar Bilgisayar = new Bilgisayar();
+            BilgisayarSec Bilgisayar = new BilgisayarSec();
             Bilgisayar.Anakart = Anakartlar.MSI_4;
             Bilgisayar.Islemciler = Islemciler.Intel_4;
-            Bilgisayar.Bellekler=Bellekler.Kingstong_4;
-            Bilgisayar.EkranKartlari=EkranKartlari.Asus_4;
+            Bilgisayar.Bellekler = Bellekler.Kingstong_4;
+            Bilgisayar.EkranKartlari = EkranKartlari.Asus_4;
             Bilgisayar.Depolamalar = Depolamalar.Samsung_4;
 
-            Console.WriteLine("Anakart: " + Bilgisayar.Anakart+ "\nEkran Karti: " + Bilgisayar.EkranKartlari + "\nDepolama: " + Bilgisayar.Depolamalar + "\nIslemci: " + Bilgisayar.Islemciler + "\nBellek: " + Bilgisayar.Bellekler);
+            Console.WriteLine("Anakart: " + Bilgisayar.Anakart + "\nEkran Karti: " + Bilgisayar.EkranKartlari + "\nDepolama: " + Bilgisayar.Depolamalar + "\nIslemci: " + Bilgisayar.Islemciler + "\nBellek: " + Bilgisayar.Bellekler);
+
             
-            //otomobil.KasaTipi = KasaTipi.Sedan;
             #endregion
         }
     }
