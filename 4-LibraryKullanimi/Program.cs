@@ -30,9 +30,10 @@ namespace _4_LibraryKullanimi
             //bilgisayar.Diskler.Add(new SSD() { Marka = "CORSAIR" , DiskTipi=DiskTipi.SSD});
             //bilgisayar.EkranKartlari = new List<EkranKarti>();
 
-            oyuncu = null;
-            
+            //oyuncu = null;
 
+            Console.WriteLine("oyuncupc fiyat=" +oyuncu.FiyatHesapla());
+            Console.WriteLine("pc fiyat=" + bilgisayar.FiyatHesapla());
 
         }
     }

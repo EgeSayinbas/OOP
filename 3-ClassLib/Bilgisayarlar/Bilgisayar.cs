@@ -21,11 +21,30 @@ namespace _3_ClassLib.Bilgisayarlar
         public Bilgisayar()
         {
             Cpu = new Cpu("AMD");
-            Ramler = new List<Ram>();
-            EkranKartlari= new List<EkranKarti>();
-            Diskler = new List<SSD>();
+            Ramler = new List<Ram>() { new Ram { Fiyat = 5 } };
+            EkranKartlari= new List<EkranKarti>() { new EkranKarti { Fiyat = 10 } };
+            Diskler = new List<SSD>() { new SSD { Fiyat=30} };
             Anakart= new Anakart();
         }
+        public double FiyatHesapla()
+        {
+            double toplamtutar = 0;
+            foreach (var item in Ramler)
+            {
+                toplamtutar +=  item.Fiyat;
+            }
+            foreach (var item in Diskler)
+            {
+                toplamtutar +=  item.Fiyat;
+            }
+            foreach (var item in EkranKartlari)
+            {
+                toplamtutar +=  item.Fiyat;
+            }
+            toplamtutar += Anakart.Fiyat;
+            toplamtutar += Cpu.Fiyat;
 
+            return toplamtutar;
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace _3_ClassLib.Bilgisayarlar
         public Anakart()
         {
             Marka = "ASUS";
+            Fiyat = 1;
         }
     }
 }

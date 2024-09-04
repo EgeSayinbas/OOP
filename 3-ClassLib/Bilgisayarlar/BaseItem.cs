@@ -13,8 +13,12 @@ namespace _3_ClassLib.Bilgisayarlar
      */
     public abstract class BaseItem
     {
-        public double Fiyat { get; set; }
+        public double Fiyat { get; set; } //= 1;
         public string Marka { get; set; }
         public string Model { get; set; }
+        protected BaseItem()
+        {
+            Fiyat = 1;
+        }
     }
 }

@@ -17,6 +17,7 @@ namespace _3_ClassLib.Bilgisayarlar
             Marka = "AMD";
             CoreSayisi = 4;
             Hiz = 1000;
+            Fiyat = 1;
         }
         public Cpu(string marka)
         {
