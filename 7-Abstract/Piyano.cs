@@ -18,9 +18,9 @@ namespace _7_Abstract
         {
             Console.WriteLine("piyano akort edildi");
         }
-        public override string ToString()
-        {
-            return $"Marka {Marka}  Model  {Model}";
-        }
+        //public override string ToString()
+        //{
+        //    return $"Marka {Marka}  Model  {Model}";
+        //}
     }
 }
