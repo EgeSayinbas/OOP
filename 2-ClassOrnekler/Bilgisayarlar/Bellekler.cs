@@ -8,4 +8,5 @@ namespace _2_ClassOrnekler.Bilgisayarlar
         Kingstong_3,
         Kingstong_4
     }
+    
 }

@@ -16,6 +16,7 @@ namespace _2_ClassOrnekler.Bilgisayarlar
         public Depolamalar Depolamalar { get; set; }
         public EkranKartlari EkranKartlari { get; set; }
         public Islemciler Islemciler { get; set; }
+        
 
     }
     
