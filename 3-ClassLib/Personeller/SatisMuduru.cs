@@ -31,7 +31,7 @@ namespace _3_ClassLib.Personeller
             double primToplami = 0;
             foreach (var item in BagliElemanlar)
             {
-                primToplami += item.Prim * 0.1;
+                primToplami + = item.Prim * 0.1;
             }
 
             return Maas += primToplami;
