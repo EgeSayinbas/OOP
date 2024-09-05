@@ -8,7 +8,7 @@ namespace _3_ClassLib.Personeller
 {
     public class InsanKaynaklari : Personel
     {
-        public InsanKaynaklari()
+        public InsanKaynaklari(string ad, string soyad):base(ad, soyad)
         {
             Maas = base.Maas * 2;
         }

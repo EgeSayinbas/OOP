@@ -16,5 +16,41 @@ namespace _3_ClassLib.Personeller
         public bool Cinsiyet { get; set; }
 
         public string Email { get; set; }
+
+        public Kisi(string ad,string soyad)
+        {
+            Adi = ad;
+            Soyadi = soyad;
+        }
+        #region Kod Tekrarli Olan Constructer
+        //public Kisi(string ad, string soyad,string tcno)
+        //{
+        //    Adi = ad;
+        //    Soyadi = soyad;
+        //    TcNo = tcno;
+        //}
+        //public Kisi(string ad, string soyad, string tcno,string gsm)
+        //{
+        //    Adi = ad;
+        //    Soyadi = soyad;
+        //    TcNo = tcno;
+        //    Gsm = gsm;
+        //} 
+        #endregion
+
+        public Kisi(string ad, string soyad,string tcno):this(ad,soyad)
+        {
+            TcNo = tcno;
+
+        }
+        public Kisi(string ad, string soyad, string tcno,string gsm) : this(ad, soyad,tcno)
+        {
+            Gsm = gsm;
+
+        }
+        public void KisiBilgiler()
+        {
+            Console.WriteLine(Adi + " " + Soyadi + " " + TcNo==null?"":TcNo );
+        }
     }
 }

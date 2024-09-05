@@ -1,0 +1,5 @@
+﻿1 - Classlarda herhangi bir erişim belirteci bulunmadiginda defaultu internal
+2 - Uye elemanlarda hrhangi bir erisim belirteci kullanilmaz ise defaultu private tır
+3 - Protected a sadece kalitim verdigi yerlerden ulasilabilir
+4 - Classlar protected ve private olamaz
+

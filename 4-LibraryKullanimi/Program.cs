@@ -35,12 +35,15 @@ namespace _4_LibraryKullanimi
             Console.WriteLine("oyuncupc fiyat=" + oyuncu.FiyatHesapla());
             Console.WriteLine("pc fiyat=" + bilgisayar.FiyatHesapla());
 
+            Kisi kisi = new Kisi("ayse", "kaya","12132","123123");
 
-            SatisMuduru satisMuduru = new SatisMuduru();
-            SatisElemani satisElemani = new SatisElemani();
+            SatisMuduru satisMuduru = new SatisMuduru("Ali","Yilmaz");
+            
+            //SatisElemani satisElemani = new SatisElemani();
             //satisElemani.Prim = 100;
             //satisMuduru.Prim = 100;
 
+            //Kisi kisi = new Kisi();
             
         }
     }

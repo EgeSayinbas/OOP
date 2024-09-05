@@ -9,7 +9,7 @@ namespace _3_ClassLib.Personeller
     public class SatisMuduru : SatisElemani 
     {
           //prim property si instance alindiginda gorunmeyecek
-        public SatisMuduru()
+        public SatisMuduru(string ad, string soyad) : base(ad, soyad)
         {
             Maas = base.Maas + PrimHesapla(); 
             //base.Prim=100;

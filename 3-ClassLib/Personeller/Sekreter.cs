@@ -8,7 +8,7 @@ namespace _3_ClassLib.Personeller
 {
     public class Sekreter : Personel
     {
-        public Sekreter()
+        public Sekreter(string ad, string soyad) : base(ad, soyad)
         {
             Maas = base.Maas+7000;
         }
