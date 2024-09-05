@@ -14,6 +14,10 @@ namespace _7_Abstract
         {
             throw new NotImplementedException();
         }
+        public override void AkortYap()
+        {
+            Console.WriteLine("piyano akort edildi");
+        }
         public override string ToString()
         {
             return $"Marka {Marka}  Model  {Model}";
