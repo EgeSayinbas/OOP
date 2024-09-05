@@ -11,11 +11,11 @@ namespace _3_ClassLib.Personeller
           //prim property si instance alindiginda gorunmeyecek
         public SatisMuduru()
         {
-            Maas = base.Maas + PrimHesapla();
+            Maas = base.Maas + PrimHesapla(); 
             //base.Prim=100;
         }
-
         public List<SatisElemani> BagliElemanlar { get; set; }
+        
         public void SatisToplantisiYap()
         {
 
@@ -25,13 +25,13 @@ namespace _3_ClassLib.Personeller
         {
 
         }
-        
+
         private double PrimHesapla()
         {
             double primToplami = 0;
-            foreach(var item in BagliElemanlar)
+            foreach (var item in BagliElemanlar)
             {
-                primToplami += item.Prim*0.1;
+                primToplami += item.Prim * 0.1;
             }
 
             return Maas += primToplami;

@@ -10,12 +10,12 @@ namespace _3_ClassLib.Personeller
     {
         //protected sadece kalitim verdigi yerlerde ulasilabilir
         //Instance alininca erisilemez
-        public double Prim { get; set; }
+        internal double Prim { get; set; }
         public SatisElemani()
         {
-            Maas=base.Maas*1.5+Prim;
+            Maas = base.Maas * 1.5+ Prim;
         }
-
+        
 
 
         public void MusterileriAra()
@@ -32,5 +32,7 @@ namespace _3_ClassLib.Personeller
         {
 
         }
+
+        
     }
 }
