@@ -38,8 +38,8 @@ namespace _4_LibraryKullanimi
 
             SatisMuduru satisMuduru = new SatisMuduru();
             SatisElemani satisElemani = new SatisElemani();
-            satisElemani.Prim = 100;
-            satisMuduru.Prim = 100;
+            //satisElemani.Prim = 100;
+            //satisMuduru.Prim = 100;
 
             
         }
