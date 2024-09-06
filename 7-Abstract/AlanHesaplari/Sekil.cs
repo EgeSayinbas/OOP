@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7_Abstract.AlanHesaplari
 {
-    internal abstract class Sekil
+    public abstract class Sekil
     {
         public int KısaKenar { get; set; }
         public int UzunKenar { get; set; }

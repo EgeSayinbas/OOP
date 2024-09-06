@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7_Abstract
 {
-    internal class Piyano : MuzikAleti
+    public class Piyano : MuzikAleti
     {
         public override string Model { get; set; }
         public override string Marka { get; set; }

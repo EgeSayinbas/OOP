@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7_Abstract.AlanHesaplari
 {
-    internal class Kare : Sekil
+    public class Kare : Sekil
     {
         public override double AlanHesapla()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7_Abstract.AlanHesaplari
 {
-    internal class DİkUcgen : Sekil
+    public class DİkUcgen : Sekil
     {
         public override double AlanHesapla()
         {

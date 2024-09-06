@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace _7_Abstract.AlanHesaplari
 {
-    internal class Daire
+    public class Daire : Sekil
     {
+        public override double AlanHesapla()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override double CevreHesapla()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

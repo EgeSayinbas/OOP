@@ -9,8 +9,10 @@ namespace _7_Abstract
     #region Konu Anlatimi
     //Abstract classlar sadece kalitim verir
     //Instance alınmaz
+
+    //seales class abstractın tersidir
     #endregion
-    internal abstract class MuzikAleti
+    public abstract class MuzikAleti
     {
         public abstract string Marka {  get; set; }
         public abstract string Model { get; set; }
