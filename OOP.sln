@@ -11,15 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ClassLib", "3-ClassLib\3-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-LibraryKullanimi", "4-LibraryKullanimi\4-LibraryKullanimi.csproj", "{F8C68C08-B79D-4FB9-8D88-27B745E8990A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ObjectKavrami", "5-ObjectKavrami\5-ObjectKavrami.csproj", "{F1A4D54A-0B51-4D92-A42C-BA583C1F2F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-ObjectKavrami", "5-ObjectKavrami\5-ObjectKavrami.csproj", "{F1A4D54A-0B51-4D92-A42C-BA583C1F2F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-SingletonPattern", "6-SingletonPattern\6-SingletonPattern.csproj", "{BB218DD5-DE21-435C-B400-F8677EFFD8FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6-SingletonPattern", "6-SingletonPattern\6-SingletonPattern.csproj", "{BB218DD5-DE21-435C-B400-F8677EFFD8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-Abstract", "7-Abstract\7-Abstract.csproj", "{A52541B6-B1DB-40F8-ADC1-3C12E0A8AC30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-Abstract", "7-Abstract\7-Abstract.csproj", "{A52541B6-B1DB-40F8-ADC1-3C12E0A8AC30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-AbstractionLab", "8-AbstractionLab\8-AbstractionLab.csproj", "{F0EF0F41-2A5A-4378-9021-5AD9DD4C6A41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8-AbstractionLab", "8-AbstractionLab\8-AbstractionLab.csproj", "{F0EF0F41-2A5A-4378-9021-5AD9DD4C6A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Polimorfizim", "9-Polimorfizim\9-Polimorfizim.csproj", "{CA8AD490-2D4A-450D-B9D1-45AD419828D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-Polimorfizim", "9-Polimorfizim\9-Polimorfizim.csproj", "{CA8AD490-2D4A-450D-B9D1-45AD419828D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F65FF585-343B-44D6-95A5-3231BBEC1D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-PolimorizimWindow", "10-PolimorizimWindow\10-PolimorizimWindow.csproj", "{AC30013A-03D8-4013-93F1-19FB123FDD43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,10 @@ Global
 		{CA8AD490-2D4A-450D-B9D1-45AD419828D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA8AD490-2D4A-450D-B9D1-45AD419828D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA8AD490-2D4A-450D-B9D1-45AD419828D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC30013A-03D8-4013-93F1-19FB123FDD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC30013A-03D8-4013-93F1-19FB123FDD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC30013A-03D8-4013-93F1-19FB123FDD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC30013A-03D8-4013-93F1-19FB123FDD43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
