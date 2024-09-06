@@ -63,6 +63,10 @@ namespace _12_InterfaceLab
 
             /*
              * IT elemani arayan bir firmanin insan kaynaklarindaki basvuru surecini modelleyin
+             * is tanimlarinin oldugu bir interface
+             * onu bilsin bunu bilsin yaptıgı isler yabanci diller cv bakma gibi okullar projeler
+             * asp.net yaz java yaz vb.
+             * askerlik kadınsa çıkmasın erkekse çıksın
              * 
              */
             #endregion
