@@ -82,7 +82,7 @@ namespace _12_InterfaceLab
                 WorkExperience = new List<string> { "3 yıl yazılım geliştirici", "2 yıl proje yöneticisi" }
             };
 
-            HumanResources hr = new HumanResources();
+            HumanResourcesBase hr = new HumanResourcesBase();
             hr.ReviewApplication(candidate1);
 
 
