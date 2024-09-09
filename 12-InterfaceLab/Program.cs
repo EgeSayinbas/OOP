@@ -1,4 +1,5 @@
 ﻿using _12_InterfaceLab.FirinOrnegi;
+using _12_InterfaceLab.InsanKaynaklari;
 using _12_InterfaceLab.LokantaOrnegi;
 
 namespace _12_InterfaceLab
@@ -69,7 +70,25 @@ namespace _12_InterfaceLab
              * askerlik kadınsa çıkmasın erkekse çıksın
              * 
              */
-            #endregion
+            Aday candidate1 = new Aday
+            {
+                Name = "Ahmet Yılmaz",
+                Gender = "Erkek",
+                Age = 30,
+                Education = "Bilgisayar Mühendisliği",
+                Skills = new List<string> { "ASP.NET", "Java", "C#" },
+                ForeignLanguage = "İngilizce",
+                Projects = new List<string> { "E-ticaret web sitesi", "Mobil oyun" },
+                WorkExperience = new List<string> { "3 yıl yazılım geliştirici", "2 yıl proje yöneticisi" }
+            };
+
+            HumanResources hr = new HumanResources();
+            hr.ReviewApplication(candidate1);
+
+
         }
+
+        #endregion
+    
     }
 }

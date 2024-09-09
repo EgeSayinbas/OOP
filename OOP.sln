@@ -23,13 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-Polimorfizim", "9-Polimor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{F65FF585-343B-44D6-95A5-3231BBEC1D14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-PolimorizimWindow", "10-PolimorizimWindow\10-PolimorizimWindow.csproj", "{AC30013A-03D8-4013-93F1-19FB123FDD43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-PolimorizimWindow", "10-PolimorizimWindow\10-PolimorizimWindow.csproj", "{AC30013A-03D8-4013-93F1-19FB123FDD43}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-Interface", "..\..\..\..\Downloads\OOP-master\OOP-master\11-Interface\11-Interface.csproj", "{9CC6459B-8D74-46A8-9EEA-8D81CF4C9E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-InterfaceLab", "12-InterfaceLab\12-InterfaceLab.csproj", "{CB44C8B4-C951-4151-85C8-3AD7D7A5A46C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InsanKaynaklari", "InsanKaynaklari", "{94CB324C-AE32-417A-B610-D116604B9D75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-InterfaceLab", "12-InterfaceLab\12-InterfaceLab.csproj", "{CB44C8B4-C951-4151-85C8-3AD7D7A5A46C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
