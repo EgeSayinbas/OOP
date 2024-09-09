@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-InterfaceLab", "12-Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-InterfaceUretim", "InterfaceUretim\13-InterfaceUretim.csproj", "{3B7DF1AC-037E-41DD-A214-D707DFC664BD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14-InterfaceFutbolcu", "..\..\..\..\Downloads\OOP-master (1)\OOP-master\14-InterfaceFutbolcu\14-InterfaceFutbolcu.csproj", "{C8E3EBDF-BBC9-41A2-BB4B-1AB7E237AE46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{3B7DF1AC-037E-41DD-A214-D707DFC664BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7DF1AC-037E-41DD-A214-D707DFC664BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7DF1AC-037E-41DD-A214-D707DFC664BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E3EBDF-BBC9-41A2-BB4B-1AB7E237AE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E3EBDF-BBC9-41A2-BB4B-1AB7E237AE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E3EBDF-BBC9-41A2-BB4B-1AB7E237AE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E3EBDF-BBC9-41A2-BB4B-1AB7E237AE46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
